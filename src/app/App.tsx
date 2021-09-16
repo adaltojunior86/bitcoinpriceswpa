@@ -16,7 +16,7 @@ class App extends React.Component<{}, {lastPrice: number}> {
   }
   render = () => (
     <div className="App">
-      <BitCoinPriceCard value={this.state.lastPrice} coinName="Bitcoin" />
+      <BitCoinPriceCard value={this.state.lastPrice} />
     </div>
   );
 }
